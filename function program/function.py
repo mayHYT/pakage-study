@@ -126,4 +126,4 @@ def modo(n,m):
     return n%m
 
 mod100 = functools.partial(modo, 100)
-print(mod100(7))
+print(mod100(7)
