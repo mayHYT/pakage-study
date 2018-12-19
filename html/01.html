@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用的html块级标签</title>
+</head>
+<body>
+    这是一个标题
+    <h1>这是一级标题</h1>
+    <h2>这是二级标题</h2>
+    <h3>这是三级标题</h3>
+    <!--段落标签-->
+    <!--br标签强制换行-->
+    <p> indent_tree is used to modify indent reference standard,
+#  add rules must according to mode father-child relationship,
+#  and mode father-child relationship must be added in order to exact match
+#  add rules:<br>
+#    "." means any one character is matched,
+#    "*" means  matches zero or more character (greater than or equal to 0)</p>
+<!--列表标签-->
+<!--无序列表-->
+    <!--注意ul标签中只能写li标签-->
+    <ul>
+        <li>列表项一</li>
+        <li>列表项二</li>
+        <li>列表项三</li>
+    </ul>
+    <!--有序列表 type属性 设置列表标记类型-->
+    <ol type="A">
+        <li>有序列表</li>
+        <li>有序列表</li>
+    </ol>
+    <!--表格标签 table声明一个表格 th 表头 tr表头 tr 行 td 列
+        border: 设置边框是否显示
+        cellpadding: 设置表格当中内容距离边框间距
+        cellspacing:设置表格和表格之间的间距
+    -->
+    <table border="1" cellpadding="10px" cellspacing="0">
+        <th colspan="4">这是表头</th>
+        <tr>
+            <td>第一行第一列</td>
+            <td>第一行第二列</td>
+            <td>第一行第三列</td>>
+            <td>第一行第四列</td>
+        </tr>
+        <tr>
+            <td>第二行第一列</td>
+            <td>第二行第二列</td>
+            <td>第二行第三列</td>
+            <td>第二行第三列</td>
+        </tr>
+    </table>
+    <!--水平分割线-->
+    <hr>
+    <!--区块元素 没有默认样式（没有默认语义） div独占一行 -->
+    <div>这是一个div</div>
+
+</body>
+</html>
