@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+        .box:hover{
+            /*鼠标悬停之后的样式*/
+            background-color: aquamarine;
+            width: 500px;
+            height: 500px;
+        }
+        /*after 在元素里面的尾部插入内容*/
+        .box:after{
+            content: ' May';
+        }
+        /*before 在元素里面的头部插入内容*/
+        .box:before{
+            content: 'I ';
+        }
+    </style>
+</head>
+<body>
+    <div class="box">love</div>
+</body>
+</html>
