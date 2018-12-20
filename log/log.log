@@ -1,0 +1,57 @@
+DEBUG:root:This is debug info.
+INFO:root:This is info 
+WARNING:root:This is warming info.
+ERROR:root:This is error info.
+CRITICAL:root:This is critical info.
+2018-12-06 15:02:53,962 DEBUG (message)s
+2018-12-06 15:02:53,966 INFO (message)s
+2018-12-06 15:02:53,966 WARNING (message)s
+2018-12-06 15:02:53,966 ERROR (message)s
+2018-12-06 15:02:53,967 CRITICAL (message)s
+2018-12-06 15:03:54,804 DEBUG This is debug info.
+2018-12-06 15:03:54,805 INFO This is info 
+2018-12-06 15:03:54,805 WARNING This is warming info.
+2018-12-06 15:03:54,805 ERROR This is error info.
+2018-12-06 15:03:54,805 CRITICAL This is critical info.
+2018-12-06 15:05:55,619 DEBUG This is debug info.
+2018-12-06 15:05:55,619 INFO This is info 
+2018-12-06 15:05:55,619 WARNING This is warming info.
+2018-12-06 15:05:55,619 ERROR This is error info.
+2018-12-06 15:05:55,620 CRITICAL This is critical info.
+2018-12-06 15:05:55,620 DEBUG This is debug info
+2018-12-06 15:05:55,620 INFO This is info message
+2018-12-06 15:05:55,620 WARNING This is warming info
+2018-12-06 15:05:55,620 ERROR This is error info
+2018-12-06 15:58:50,342 11 DEBUG This is debug info.
+2018-12-06 15:58:50,343 12 INFO This is info 
+2018-12-06 15:58:50,344 13 WARNING This is warming info.
+2018-12-06 15:58:50,344 14 ERROR This is error info.
+2018-12-06 15:58:50,344 15 CRITICAL This is critical info.
+12/06/2018 16:01:22 PM 12 DEBUG This is debug info.
+12/06/2018 16:01:22 PM 13 INFO This is info 
+12/06/2018 16:01:22 PM 14 WARNING This is warming info.
+12/06/2018 16:01:22 PM 15 ERROR This is error info.
+12/06/2018 16:01:22 PM 16 CRITICAL This is critical info.
+12/06/2018 16:05:10 PM 12 DEBUG This is debug info.
+12/06/2018 16:05:10 PM 13 INFO This is info 
+12/06/2018 16:05:10 PM 14 WARNING This is warming info.
+12/06/2018 16:05:10 PM 15 ERROR This is error info.
+12/06/2018 16:05:10 PM 16 CRITICAL This is critical info.
+12/06/2018 16:05:10 PM 17 INFO Tom is 18 years old
+12/06/2018 16:12:09 PM 18  Tom[10.138.92.147] INFO Some one delete the log file.
+NoneType: None
+Stack (most recent call last):
+  File "C:/Users/ehuamay/PycharmProjects/pakage-study/log/log.py", line 18, in <module>
+    logging.info("Some one delete the log file.", exc_info=True, stack_info=True, extra={'user':'Tom', 'ip':'10.138.92.147'})
+12/07/2018 17:18:43 PM 13 DEBUG This is debug info.
+12/07/2018 17:18:43 PM 14 INFO This is info 
+12/07/2018 17:18:43 PM 15 WARNING This is warming info.
+12/07/2018 17:18:43 PM 16 ERROR This is error info.
+12/07/2018 17:18:43 PM 17 CRITICAL This is critical info.
+12/07/2018 17:18:43 PM 18 INFO Tom is 18 years old
+12/07/2018 17:18:52 PM 13 DEBUG This is debug info.
+12/07/2018 17:18:52 PM 14 INFO This is info 
+12/07/2018 17:18:52 PM 15 WARNING This is warming info.
+12/07/2018 17:18:52 PM 16 ERROR This is error info.
+12/07/2018 17:18:52 PM 17 CRITICAL This is critical info.
+12/07/2018 17:18:52 PM 18 INFO Tom is 18 years old
